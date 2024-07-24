@@ -1,0 +1,8 @@
+usage: bruteforce.py [-h] --seed SEED --address ADDRESS [--address-type {segwit,legacy}]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --seed SEED           the wallet seed, consists of 24 words
+  --address ADDRESS     the wallet address at 0
+  --address-type {segwit,legacy}
+                        the wallet address type
